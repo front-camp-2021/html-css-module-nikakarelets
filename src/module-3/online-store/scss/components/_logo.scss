@@ -1,0 +1,18 @@
+.logo {
+  display: flex;
+
+  &__icon {
+    height: 72px;
+    width: 91px;
+  }
+
+  &__name {
+    color: #7e72f2;
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xxl);
+    font-weight: 600;
+    align-items: center;
+    display: flex;
+    margin-left: 22px;
+  }
+}

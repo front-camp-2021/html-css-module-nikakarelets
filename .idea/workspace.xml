@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13531ab8-4fb9-487c-a0fb-02efe32652fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module-3/online-store/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module-3/online-store/styles/style.scss" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,76 +16,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/module-2/components/styles/scss/base/_mixins.scss">
+        <entry file="file://$PROJECT_DIR$/src/module-2/components/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/module-2/components/styles/scss/base/_variables.scss">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/module-2/components/styles/scss/base/_base.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/module-2/components/styles/scss/style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/module-2/components/styles/scss/components/_header.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/module-2/components/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
+            <state relative-caret-position="210">
               <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/module-2/components/img/icons/chevrons-right-1@2x.svg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/module-2/components/styles/scss/components/_product.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-667" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/module-2/components/styles/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="206" column="1" lean-forward="true" selection-start-line="78" selection-end-line="206" selection-end-column="1" />
+        <entry file="file://$PROJECT_DIR$/src/module-3/online-store/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/module-3/online-store/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -124,10 +87,11 @@
         <option value="$PROJECT_DIR$/src/module-2/components/styles/scss/base/_base.scss" />
         <option value="$PROJECT_DIR$/src/module-2/components/styles/scss/components/_header.scss" />
         <option value="$PROJECT_DIR$/src/module-2/components/index.html" />
+        <option value="$PROJECT_DIR$/src/module-3/online-store/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="799" />
@@ -154,82 +118,31 @@
               <item name="html-css-module-nikakarelets" type="b2602c69:ProjectViewProjectNode" />
               <item name="html-css-module-nikakarelets" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="module-2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="html-css-module-nikakarelets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html-css-module-nikakarelets" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="module-2" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="html-css-module-nikakarelets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html-css-module-nikakarelets" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="module-2" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="html-css-module-nikakarelets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html-css-module-nikakarelets" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="module-2" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="icons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="html-css-module-nikakarelets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html-css-module-nikakarelets" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="module-2" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="html-css-module-nikakarelets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html-css-module-nikakarelets" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="module-2" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="html-css-module-nikakarelets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html-css-module-nikakarelets" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="module-2" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="html-css-module-nikakarelets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html-css-module-nikakarelets" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="module-2" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="html-css-module-nikakarelets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html-css-module-nikakarelets" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="module-2" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="module-3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="html-css-module-nikakarelets" type="b2602c69:ProjectViewProjectNode" />
               <item name="html-css-module-nikakarelets" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="module-3" type="462c0819:PsiDirectoryNode" />
+              <item name="online-store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="html-css-module-nikakarelets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html-css-module-nikakarelets" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="module-3" type="462c0819:PsiDirectoryNode" />
+              <item name="online-store" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="html-css-module-nikakarelets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html-css-module-nikakarelets" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="module-3" type="462c0819:PsiDirectoryNode" />
+              <item name="online-store" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="styles.css" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -242,7 +155,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/module-2/components/img/icons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/module-3/online-store" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -256,10 +169,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/module-2/components" />
       <recent name="$PROJECT_DIR$/src/module-2/components/img/icons" />
       <recent name="$PROJECT_DIR$/src/module-2/components/img" />
       <recent name="$PROJECT_DIR$/src/module-2/bootstrap-design" />
-      <recent name="$PROJECT_DIR$/src/module-2/components" />
       <recent name="$PROJECT_DIR$/src/module-1/img/products" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -306,25 +219,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1631779717690</updated>
-      <workItem from="1631779719043" duration="25634000" />
+      <workItem from="1631779719043" duration="27324000" />
+      <workItem from="1632242856023" duration="1083000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25634000" />
+    <option name="totallyTimeSpent" value="28407000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="799" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Gulp" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49964765" visible="true" weight="0.32956153" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5003524" side_tool="true" weight="0.2807229" />
+      <window_info id="Gulp" order="2" side_tool="true" />
+      <window_info id="npm" order="3" side_tool="true" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
@@ -332,6 +243,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5003524" side_tool="true" weight="0.2807229" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49964765" visible="true" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -352,13 +267,7 @@
     <entry file="file://$PROJECT_DIR$/src/module-1/card/preview.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-1/cards-list-v1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module-1/cards-list-v1/index.html" />
     <entry file="file://$PROJECT_DIR$/src/module-1/cards-list-v1/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -375,73 +284,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-1/images/products/apple-watch.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-1/images/products/macbook-pro.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-1/images/products/jbl-speaker.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-1/images/products/iphone-x.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-1/images/products/ipad-pro.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-1/images/products/beats-headphones.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-1/img/products/apple-watch.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-1/img/products/beats-headphones.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-1/img/products/iphone-x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-1/img/products/jbl-speaker.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-1/img/products/macbook-pro.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module-1/images/products/apple-watch.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/module-1/images/products/macbook-pro.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/module-1/images/products/jbl-speaker.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/module-1/images/products/iphone-x.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/module-1/images/products/ipad-pro.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/module-1/images/products/beats-headphones.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/module-1/img/products/apple-watch.png" />
+    <entry file="file://$PROJECT_DIR$/src/module-1/img/products/beats-headphones.png" />
+    <entry file="file://$PROJECT_DIR$/src/module-1/img/products/iphone-x.png" />
+    <entry file="file://$PROJECT_DIR$/src/module-1/img/products/jbl-speaker.png" />
+    <entry file="file://$PROJECT_DIR$/src/module-1/img/products/macbook-pro.png" />
     <entry file="file://$PROJECT_DIR$/src/module-1/img/icons/shopping-bag@2x.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-1/styles/scss/base/_header.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-1/styles/heart-1@2x.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module-1/styles/scss/base/_header.scss" />
+    <entry file="file://$PROJECT_DIR$/src/module-1/styles/heart-1@2x.svg" />
     <entry file="file://$PROJECT_DIR$/src/module-1/img/icons/Path@2x.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/module-1/img/icons/heart-1@2x.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-1/styles/scss/layout/_overlap.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-1/img/products/ipad-pro.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-1/img/products/ipad-pro.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-1/img/products/ipad-pro.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-1/styles/scss/base/_typography.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="19" selection-start-line="25" selection-start-column="2" selection-end-line="27" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module-1/styles/scss/layout/_overlap.scss" />
+    <entry file="file://$PROJECT_DIR$/src/module-1/img/products/ipad-pro.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/module-1/img/products/ipad-pro.svg" />
+    <entry file="file://$PROJECT_DIR$/src/module-1/img/products/ipad-pro.png" />
+    <entry file="file://$PROJECT_DIR$/src/module-1/styles/scss/base/_typography.scss" />
     <entry file="file://$PROJECT_DIR$/src/module-1/img/products/ipad-pro@2x.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -476,19 +345,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-2/components/img/icons/Path@2x.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-2/bootstrap-design/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="7" column="212" selection-start-line="7" selection-start-column="212" selection-end-line="7" selection-end-column="212" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-2/components/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module-2/components/img/icons/Path@2x.svg" />
+    <entry file="file://$PROJECT_DIR$/src/module-2/bootstrap-design/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/module-2/components/css/style.css" />
     <entry file="file://$PROJECT_DIR$/src/module-1/styles/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -499,58 +358,50 @@
     <entry file="file://$PROJECT_DIR$/src/module-1/styles/css/style.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-2/components/img/icons/chevrons-right-1@2x.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-2/components/styles/scss/base/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-2/components/styles/scss/base/_mixins.scss">
+    <entry file="file://$PROJECT_DIR$/src/module-2/components/img/icons/chevrons-right-1@2x.svg" />
+    <entry file="file://$PROJECT_DIR$/src/module-2/components/styles/scss/base/_variables.scss" />
+    <entry file="file://$PROJECT_DIR$/src/module-2/components/styles/scss/base/_mixins.scss" />
+    <entry file="file://$PROJECT_DIR$/src/module-2/components/styles/scss/style.scss" />
+    <entry file="file://$PROJECT_DIR$/src/module-2/components/styles/scss/base/_base.scss" />
+    <entry file="file://$PROJECT_DIR$/src/module-2/components/styles/scss/components/_header.scss" />
+    <entry file="file://$PROJECT_DIR$/src/module-2/components/styles/scss/components/_product.scss" />
+    <entry file="file://$PROJECT_DIR$/src/module-2/components/styles/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/src/module-2/components/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-2/components/styles/scss/style.scss">
+    <entry file="file://$PROJECT_DIR$/src/module-3/online-store/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-2/components/styles/scss/base/_base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-2/components/styles/scss/components/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-2/components/styles/scss/components/_product.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-667" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/module-2/components/styles/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="206" column="1" lean-forward="true" selection-start-line="78" selection-end-line="206" selection-end-column="1" />
+        <state relative-caret-position="505">
+          <caret line="530" selection-start-line="530" selection-end-line="530" />
+          <folding>
+            <element signature="n#style#0;n#div#10;n#div#0;n#div#2;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#11;n#div#0;n#div#2;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/module-2/components/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
+        <state relative-caret-position="210">
           <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module-3/online-store/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/module-3/online-store/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

@@ -1,0 +1,51 @@
+.container-center-horizontal {
+  display: flex;
+  justify-content: center;
+}
+
+.vuesax-ecommerce-dashboard {
+  display: flex;
+  max-width: 100%;
+}
+
+.overlap-main {
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px #00000014;
+  display: flex;
+  flex-direction: column;
+  padding: 27px 33px;
+}
+
+.flex-row-main {
+  display: flex;
+  margin-top: 43px;
+}
+
+.flex-col-right {
+  display: flex;
+  flex-direction: column;
+  min-width: 25%;
+}
+
+.flex-col-grid {
+  display: flex;
+  flex-direction: column;
+  margin-left: 27px;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+@media (max-width: 75em) {
+  .flex-col-right {
+    display: none;
+  }
+
+  .flex-col-grid {
+    margin-left: 1px;
+  }
+}
