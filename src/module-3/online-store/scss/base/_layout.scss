@@ -1,19 +1,12 @@
-.container-center-horizontal {
-  display: flex;
-  justify-content: center;
-}
-
-.vuesax-ecommerce-dashboard {
-  display: flex;
-  max-width: 100%;
-}
-
 .overlap-main {
   background-color: #f9f9f9;
   box-shadow: 0 2px 8px #00000014;
   display: flex;
   flex-direction: column;
   padding: 27px 33px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .flex-row-main {

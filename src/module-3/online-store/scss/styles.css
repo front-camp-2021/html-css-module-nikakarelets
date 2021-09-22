@@ -113,22 +113,15 @@ input:focus {
     --font-family-montserrat: "Montserrat", Helvetica;
   }
 }
-.container-center-horizontal {
-  display: flex;
-  justify-content: center;
-}
-
-.vuesax-ecommerce-dashboard {
-  display: flex;
-  max-width: 100%;
-}
-
 .overlap-main {
   background-color: #f9f9f9;
   box-shadow: 0 2px 8px #00000014;
   display: flex;
   flex-direction: column;
   padding: 27px 33px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .flex-row-main {
@@ -263,6 +256,7 @@ input:focus {
 }
 .products__buttons_text {
   margin-left: 8px;
+  text-transform: uppercase;
 }
 .products__buttons_btn {
   display: flex;
@@ -313,14 +307,14 @@ input:focus {
     width: 100%;
   }
 }
-.logo {
+.header {
   display: flex;
 }
-.logo__icon {
+.header__logo {
   height: 72px;
   width: 91px;
 }
-.logo__name {
+.header__title {
   color: #7e72f2;
   font-family: var(--font-family-montserrat);
   font-size: var(--font-size-xxl);

@@ -1,12 +1,12 @@
-.logo {
+.header {
   display: flex;
 
-  &__icon {
+  &__logo {
     height: 72px;
     width: 91px;
   }
 
-  &__name {
+  &__title {
     color: #7e72f2;
     font-family: var(--font-family-montserrat);
     font-size: var(--font-size-xxl);
