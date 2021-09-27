@@ -116,7 +116,7 @@
   left: 0;
   top: 0;
   width: 17px;
-  height: 15px;
+  height: 17px;
   border: 1px solid #ddd;
   background: #fff;
 }
@@ -130,7 +130,7 @@
 .filters__radio-btn:not(:checked) + label:after {
   content: '';
   width: 17px;
-  height: 15px;
+  height: 17px;
   background: $blue-marguerite;
   position: absolute;
   top: 0;
