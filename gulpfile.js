@@ -6,7 +6,7 @@ const autoprefixer = require('gulp-autoprefixer');
 const srcPath = './src/module-3/online-store/';
 
 function styles(cb) {
-  src(`${srcPath}styles/style.scss`)
+  src(`${srcPath}styles/scss/styles.scss`)
     .pipe(sourcemaps.init())
     .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
     .pipe(autoprefixer({

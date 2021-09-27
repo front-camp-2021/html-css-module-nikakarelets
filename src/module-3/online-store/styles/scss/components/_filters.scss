@@ -1,22 +1,33 @@
 .filters {
   line-height: 21px;
   align-self: center;
+  color: $heavy-metal;
+  font-family: $font-family-montserrat;
+  font-size: $font-size-l;
+  font-style: normal;
+  font-weight: 400;
 
   &__ico {
     height: 40px;
     width: 47px;
-    background: #FFFFFF;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.135216);
+    background: #FFF;
+    box-shadow: $box-shadow;
     border-radius: 8px;
   }
+
   &-column {
-    background-color: var(--white);
+    background-color: white;
     border-radius: 8px;
-    box-shadow: 0 2px 8px #00000022;
+    box-shadow: $box-shadow;
     display: flex;
     flex-direction: column;
     padding: 20px 44px;
     height: 100%;
+    color: $heavy-metal;
+    font-family: $font-family-montserrat;
+    font-size: $font-size-l;
+    font-style: normal;
+    font-weight: 600;
   }
 
   &__prices {
@@ -26,14 +37,22 @@
     &-col {
       display: flex;
       flex-direction: column;
+
+      & label {
+        color: $heavy-metal;
+        font-family: $font-family-montserrat;
+        font-size: $font-size-m;
+        font-style: normal;
+        font-weight: 300;
+      }
     }
   }
 
   &__btn {
     align-items: center;
-    background-color: var(--blue-marguerite);
+    background-color: $blue-marguerite;
     border-radius: 8px;
-    box-shadow: 0 2px 8px #00000022;
+    box-shadow: $box-shadow;
     display: flex;
     height: 58px;
     justify-content: center;
@@ -41,9 +60,10 @@
     width: 100%;
 
     &_txt {
-      color: var(--white);
-      font-family: var(--font-family-montserrat);
-      font-size: var(--font-size-l);
+      color: white;
+      font-family: $font-family-montserrat;
+      font-size: $font-size-l;
+      text-transform: uppercase;
       flex-wrap: nowrap;
     }
   }
@@ -111,12 +131,18 @@
   content: '';
   width: 17px;
   height: 15px;
-  background: #6F64F8;
+  background: $blue-marguerite;
   position: absolute;
   top: 0;
   left: 0;
   border-radius: 100%;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
-  border: 1px solid #6F64F8;
+  border: 1px solid $blue-marguerite;
+}
+
+@media (min-width: 1200px) {
+  .filters-column {
+    padding: 18px 22px;
+  }
 }

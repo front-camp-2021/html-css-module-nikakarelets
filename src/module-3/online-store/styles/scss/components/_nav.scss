@@ -4,12 +4,12 @@
   position: relative;
   margin-top: 47px;
 
-  &__ico--home {
+  &__ico-home {
     height: 17px;
     width: 17px;
   }
 
-  &__ico--right {
+  &__separator {
     height: 10px;
     margin-left: 14px;
     margin-right: 14px;
@@ -18,14 +18,14 @@
   }
 
   &__link-1 {
-    color: #7e72f2;
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-s);
+    color: $blue-marguerite;
+    font-family: $font-family-montserrat;
+    font-size: $font-size-s;
   }
 
   &__link-2 {
-    color: var(--heavy-metal);
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-s);
+    color: $heavy-metal;
+    font-family: $font-family-montserrat;
+    font-size: $font-size-s;
   }
 }

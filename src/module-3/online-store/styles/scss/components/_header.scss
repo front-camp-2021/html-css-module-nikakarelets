@@ -3,13 +3,13 @@
 
   &__logo {
     height: 72px;
-    width: 91px;
+    width: 90px;
   }
 
   &__title {
-    color: #7e72f2;
-    font-family: var(--font-family-montserrat);
-    font-size: var(--font-size-xxl);
+    color: $blue-marguerite;
+    font-family: $font-family-montserrat;
+    font-size: $font-size-xxl;
     font-weight: 600;
     align-items: center;
     display: flex;
