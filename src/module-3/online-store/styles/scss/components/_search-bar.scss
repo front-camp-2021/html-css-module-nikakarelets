@@ -1,0 +1,27 @@
+.search-bar {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: $box-shadow;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 18px 22px;
+
+  &__input {
+    color: $mountain-mist;
+    font-family: $font-family-montserrat;
+    font-size: $font-size-xl;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 26px;
+    min-height: 26px;
+    white-space: nowrap;
+    width: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .search-bar {
+    padding: 14px 18px;
+  }
+}

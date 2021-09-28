@@ -1,0 +1,31 @@
+.nav {
+  align-items: center;
+  display: flex;
+  position: relative;
+  margin-top: 47px;
+
+  &__ico-home {
+    height: 17px;
+    width: 17px;
+  }
+
+  &__separator {
+    height: 10px;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-top: 1px;
+    width: 15px;
+  }
+
+  &__link-1 {
+    color: $blue-marguerite;
+    font-family: $font-family-montserrat;
+    font-size: $font-size-s;
+  }
+
+  &__link-2 {
+    color: $heavy-metal;
+    font-family: $font-family-montserrat;
+    font-size: $font-size-s;
+  }
+}

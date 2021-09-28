@@ -1,0 +1,28 @@
+// BOX-SHADOWS
+$box-shadow: 0 2px 8px #0002;
+
+//COLORS
+$blue-marguerite: #6f64f8;
+$heavy-metal: #2c2c2c;
+$mountain-mist: #999;
+$white: #fff;
+
+//FONT-FAMILY
+$font-family-montserrat: "Montserrat", Helvetica;
+
+//FONT-SIZES
+$font-size-l: 18px;
+$font-size-m: 16px;
+$font-size-s: 14px;
+$font-size-xl: 22px;
+$font-size-xs: 12px;
+$font-size-xxl: 48px;
+
+@media (min-width: 1200px) {
+  $font-size-l: 16px;
+  $font-size-m: 14px;
+  $font-size-s: 12px;
+  $font-size-xl: 20px;
+  $font-size-xs: 10px;
+  $font-size-xxl: 46px;
+}

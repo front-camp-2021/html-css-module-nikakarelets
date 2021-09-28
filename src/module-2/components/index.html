@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/typography.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
+
+    <title>Online Store</title>
+  </head>
+  <body>
+    <div class="container-center-horizontal">
+      <div class="vuesax-ecommerce-dashboard">
+        <div class="overlap-main">
+          <div class="logo">
+            <img class="logo__icon" src="img/logo@2x.png" />
+            <h1 class="vuesax">Online Store</h1>
+          </div>
+          <div class="bread-crumbs">
+            <a href="#"><img class="home" src="img/home@2x.svg" /></a>
+            <img class="chevrons-right-1" src="img/chevrons-right-1@2x.svg" />
+            <a href="#" class="e-commerce">eCommerce</a>
+            <img class="chevrons-right-2" src="img/chevrons-right-2@2x.svg" />
+            <div class="electronics">Electronics</div>
+          </div>
+          <div class="flex-row-4">
+            <div class="flex-col-2">
+              <div class="flex-row">
+                <div class="filters montserrat-normal-heavy-metal-18px">Filters</div>
+                <button class="grid-view"><span><img class="chevrons-right" src="img/chevrons-right@2x.svg" />
+              </span></button>
+              </div>
+              <div class="overlap-group13">
+                <div class="multi-range">
+                  <div class="multi-range-1 montserrat-semi-bold-heavy-metal-18px">Multi Range</div>
+                  <div class="flex-row-5">
+                    <div class="flex-col-3">
+                      <div>
+                        <input type="radio" id="choice10" name="radio-price" class="radio-price">
+                        <label for="choice10" class="montserrat-light-heavy-metal-16px">$10</label>
+                      </div>
+                      <div>
+                        <input type="radio" id="choice10-100" name="radio-price" class="radio-price">
+                        <label for="choice10-100" class="montserrat-light-heavy-metal-16px">$10-$100</label>
+                      </div>
+                      <div>
+                        <input type="radio" id="choice100-500" name="radio-price" class="radio-price">
+                        <label for="choice100-500" class="montserrat-light-heavy-metal-16px">$100-$500</label>
+                      </div>
+                      <div>
+                        <input type="radio" id="choice500" name="radio-price" class="radio-price">
+                        <label for="choice500" class="montserrat-light-heavy-metal-16px">$500</label>
+                      </div>
+                      <div>
+                        <input type="radio" id="choiceAll" name="radio-price" class="radio-price" checked>
+                        <label for="choiceAll" class="montserrat-light-heavy-metal-16px">All</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="category">
+                  <img class="divider" src="img/divider@2x.svg" />
+                  <div class="category-1 montserrat-semi-bold-heavy-metal-18px">Category</div>
+                  <div class="flex-row">
+                    <div class="flex-col">
+                      <div>
+                        <input type="radio" id="cellPhones" name="radio-category" class="radio-square">
+                        <label for="cellPhones" class="montserrat-light-heavy-metal-16px">
+                            <span class="category__item">
+                              <span>Cell phones</span>
+                              <span>1920</span>
+                            </span>
+                        </label>
+                      </div>
+                      <div>
+                        <input type="radio" id="compTabs" name="radio-category" class="radio-square">
+                        <label for="compTabs" class="montserrat-light-heavy-metal-16px">
+                            <span class="category__item">
+                              <span>Computers & tablets</span>
+                              <span>1820</span>
+                            </span>
+                        </label>
+                      </div>
+                      <div>
+                        <input type="radio" id="phoneAccess" name="radio-category" class="radio-square" checked>
+                        <label for="phoneAccess" class="montserrat-light-heavy-metal-16px">
+                            <span class="category__item">
+                              <span>Cell Phone Accessories</span>
+                              <span>462</span>
+                            </span>
+                        </label>
+                      </div>
+                      <div>
+                        <input type="radio" id="appliances" name="radio-category" class="radio-square">
+                        <label for="appliances" class="montserrat-light-heavy-metal-16px">
+                            <span class="category__item">
+                              <span>Appliances</span>
+                              <span>6556</span>
+                            </span>
+                        </label>
+                      </div>
+                      <div>
+                        <input type="radio" id="audio" name="radio-category" class="radio-square">
+                        <label for="audio" class="montserrat-light-heavy-metal-16px">
+                            <span class="category__item">
+                              <span>Audio</span>
+                              <span>120</span>
+                            </span>
+                        </label>
+                      </div>
+                      <div>
+                        <input type="radio" id="iphoneAccess" name="radio-category" class="radio-square">
+                        <label for="iphoneAccess" class="montserrat-light-heavy-metal-16px">
+                            <span class="category__item">
+                              <span>iPhone Accessories</span>
+                              <span>353</span>
+                            </span>
+                        </label>
+                      </div>
+                      <div>
+                        <input type="radio" id="camCod" name="radio-category" class="radio-square">
+                        <label for="camCod" class="montserrat-light-heavy-metal-16px">
+                            <span class="category__item">
+                              <span>Cameras & Camcoders</span>
+                              <span>45</span>
+                            </span>
+                        </label>
+                      </div>
+                      <div>
+                        <input type="radio" id="casesClips" name="radio-category" class="radio-square">
+                        <label for="casesClips" class="montserrat-light-heavy-metal-16px">
+                            <span class="category__item">
+                              <span>iPhone Cases & Clips</span>
+                              <span>456</span>
+                            </span>
+                        </label>
+                      </div>
+                      <div>
+                        <input type="radio" id="tvHomeTheater" name="radio-category" class="radio-square">
+                        <label for="tvHomeTheater" class="montserrat-light-heavy-metal-16px">
+                            <span class="category__item">
+                              <span>TV & Home Theater</span>
+                              <span>55</span>
+                            </span>
+                        </label>
+                      </div>
+                      <div>
+                        <input type="radio" id="kitchenApp" name="radio-category" class="radio-square">
+                        <label for="kitchenApp" class="montserrat-light-heavy-metal-16px">
+                            <span class="category__item">
+                              <span>Small Kitchen Appliances</span>
+                              <span>10</span>
+                            </span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <img class="divider" src="img/divider@2x.svg" />
+                  <div class="category-1 montserrat-semi-bold-heavy-metal-18px">Brand</div>
+                  <div class="flex-row">
+                    <div class="flex-col">
+                      <div>
+                        <input type="radio" id="insigni" name="radio-brand" class="radio-square">
+                        <label for="insigni" class="montserrat-light-heavy-metal-16px">
+                          <span class="category__item">
+                            <span>Insigni</span>
+                            <span>220</span>
+                          </span>
+                        </label>
+                      </div>
+                      <div>
+                        <input type="radio" id="samsung" name="radio-brand" class="radio-square">
+                        <label for="samsung" class="montserrat-light-heavy-metal-16px">
+                          <span class="category__item">
+                            <span>Samsung</span>
+                            <span>120</span>
+                          </span>
+                        </label>
+                      </div>
+                      <div>
+                        <input type="radio" id="apple" name="radio-brand" class="radio-square">
+                        <label for="apple" class="montserrat-light-heavy-metal-16px">
+                          <span class="category__item">
+                            <span>Apple</span>
+                            <span>320</span>
+                          </span>
+                        </label>
+                      </div>
+                      <div>
+                        <input type="radio" id="hp" name="radio-brand" class="radio-square">
+                        <label for="hp" class="montserrat-light-heavy-metal-16px">
+                          <span class="category__item">
+                            <span>HP</span>
+                            <span>32</span>
+                          </span>
+                        </label>
+                      </div>
+                      <div>
+                        <input type="radio" id="sony" name="radio-brand" class="radio-square">
+                        <label for="sony" class="montserrat-light-heavy-metal-16px">
+                          <span class="category__item">
+                            <span>Sony</span>
+                            <span>520</span>
+                          </span>
+                        </label>
+                      </div>
+                      <div>
+                        <input type="radio" id="metra" name="radio-brand" class="radio-square">
+                        <label for="metra" class="montserrat-light-heavy-metal-16px">
+                          <span class="category__item">
+                            <span>Metra</span>
+                            <span>55</span>
+                          </span>
+                        </label>
+                      </div>
+                      <div>
+                        <input type="radio" id="dyne" name="radio-brand" class="radio-square">
+                        <label for="dyne" class="montserrat-light-heavy-metal-16px">
+                          <span class="category__item">
+                            <span>Dyne</span>
+                            <span>120</span>
+                          </span>
+                        </label>
+                      </div>
+                      <div>
+                        <input type="radio" id="lg" name="radio-brand" class="radio-square">
+                        <label for="lg" class="montserrat-light-heavy-metal-16px">
+                          <span class="category__item">
+                            <span>LG</span>
+                            <span>98</span>
+                          </span>
+                        </label>
+                      </div>
+                      <div>
+                        <input type="radio" id="canon" name="radio-brand" class="radio-square">
+                        <label for="canon" class="montserrat-light-heavy-metal-16px">
+                          <span class="category__item">
+                            <span>Canon</span>
+                            <span>99</span>
+                          </span>
+                        </label>
+                      </div>
+                      <div>
+                        <input type="radio" id="speck" name="radio-brand" class="radio-square">
+                        <label for="speck" class="montserrat-light-heavy-metal-16px">
+                          <span class="category__item">
+                            <span>Speck</span>
+                            <span>575</span>
+                          </span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="overlap-group1">
+                <span class="clear-all-filters">CLEAR ALL FILTERS</span>
+              </button>
+            </div>
+            <div class="flex-col-4">
+              <div class="flex-row">
+                <div class="montserrat-normal-heavy-metal-18px" style="align-self: center">7,618 results found</div>
+                <button class="grid-view-1"><span><img class="heart-1" src="img/heart@2x.svg" />
+              </span></button>
+              </div>
+
+              <div class="overlap-group11">
+                <input class="search-hear"  type="search" placeholder="Search">
+                <button class="search" type="submit">
+                  <img class="search" src="img/search@2x.svg">
+                </button>
+              </div>
+              <div class="flex-row-1">
+                <div class="overlap-group">
+                  <img class="apple-watch" src="img/apple-watch@2x.png" />
+                  <div class="price montserrat-normal-heavy-metal-18px">$399</div>
+                  <p class="apple-watch-series-4 montserrat-normal-heavy-metal-16px">Apple Watch Series 4 GPS</p>
+                  <p class="redesigned-from-scra montserrat-light-heavy-metal-12px">
+                    Redesigned from scratch and completely revised.
+                  </p>
+                  <div class="flex-row-2">
+                    <button class="wishlist-button">
+                        <span class="overlap-group-1">
+                          <img class="heart" src="img/heart-2@2x.svg" />
+                          <span class="text-1-1 montserrat-semi-bold-heavy-metal-14px">WISHLIST</span>
+                        </span>
+                    </button>
+                    <button class="add-to-cart-button">
+                        <span class="overlap-group-2">
+                          <img class="shopping-bag" src="img/shopping-bag@2x.svg" />
+                          <span class="text montserrat-semi-bold-white-14px">ADD TO CART</span>
+                        </span>
+                    </button>
+                  </div>
+                </div>
+                <div class="overlap-group">
+                  <img class="apple-watch" src="img/jbl-speaker@2x.png" />
+                  <div class="price montserrat-normal-heavy-metal-18px">$199</div>
+                  <p class="apple-watch-series-4 montserrat-normal-heavy-metal-16px">JBL Speaker</p>
+                  <p class="redesigned-from-scra montserrat-light-heavy-metal-12px">
+                    Redesigned from scratch and completely revised.
+                  </p>
+                  <div class="flex-row-2">
+                    <button class="wishlist-button">
+                        <span class="overlap-group-1">
+                          <img class="heart" src="img/heart-2@2x.svg" />
+                          <span class="text-1-1 montserrat-semi-bold-heavy-metal-14px">WISHLIST</span>
+                        </span>
+                    </button>
+                    <button class="add-to-cart-button">
+                        <span class="overlap-group-2">
+                          <img class="shopping-bag" src="img/shopping-bag@2x.svg" />
+                          <span class="text montserrat-semi-bold-white-14px">ADD TO CART</span>
+                        </span>
+                    </button>
+                  </div>
+                </div>
+                <div class="overlap-group">
+                  <img class="apple-watch" src="img/iphone-x@2x.png" />
+                  <div class="price montserrat-normal-heavy-metal-18px">$899</div>
+                  <p class="apple-watch-series-4 montserrat-normal-heavy-metal-16px">Apple iPhone X 128GB</p>
+                  <p class="redesigned-from-scra montserrat-light-heavy-metal-12px">
+                    Redesigned from scratch and completely revised.
+                  </p>
+                  <div class="flex-row-2">
+                    <button class="wishlist-button">
+                        <span class="overlap-group-1">
+                          <img class="heart" src="img/heart-2@2x.svg" />
+                          <span class="text-1-1 montserrat-semi-bold-heavy-metal-14px">WISHLIST</span>
+                        </span>
+                    </button>
+                    <button class="add-to-cart-button">
+                        <span class="overlap-group-2">
+                          <img class="shopping-bag" src="img/shopping-bag@2x.svg" />
+                          <span class="text montserrat-semi-bold-white-14px">ADD TO CART</span>
+                        </span>
+                    </button>
+                  </div>
+                </div>
+                <div class="overlap-group">
+                  <img class="apple-watch" src="img/beats-headphones@2x.png" />
+                  <div class="price montserrat-normal-heavy-metal-18px">$499</div>
+                  <p class="apple-watch-series-4 montserrat-normal-heavy-metal-16px">Beats Headphones</p>
+                  <p class="redesigned-from-scra montserrat-light-heavy-metal-12px">
+                    Redesigned from scratch and completely revised.
+                  </p>
+                  <div class="flex-row-2">
+                    <button class="wishlist-button">
+                        <span class="overlap-group-1">
+                          <img class="heart" src="img/heart-2@2x.svg" />
+                          <span class="text-1-1 montserrat-semi-bold-heavy-metal-14px">WISHLIST</span>
+                        </span>
+                    </button>
+                    <button class="add-to-cart-button">
+                        <span class="overlap-group-2">
+                          <img class="shopping-bag" src="img/shopping-bag@2x.svg" />
+                          <span class="text montserrat-semi-bold-white-14px">ADD TO CART</span>
+                        </span>
+                    </button>
+                  </div>
+                </div>
+                <div class="overlap-group">
+                  <img class="apple-watch" src="img/macbook-pro@2x.png" />
+                  <div class="price montserrat-normal-heavy-metal-18px">$2499</div>
+                  <p class="apple-watch-series-4 montserrat-normal-heavy-metal-16px">Apple Macbook Pro 512GB SSD</p>
+                  <p class="redesigned-from-scra montserrat-light-heavy-metal-12px">
+                    Redesigned from scratch and completely revised.
+                  </p>
+                  <div class="flex-row-2">
+                    <button class="wishlist-button">
+                        <span class="overlap-group-1">
+                          <img class="heart" src="img/heart-2@2x.svg" />
+                          <span class="text-1-1 montserrat-semi-bold-heavy-metal-14px">WISHLIST</span>
+                        </span>
+                    </button>
+                    <button class="add-to-cart-button">
+                        <span class="overlap-group-2">
+                          <img class="shopping-bag" src="img/shopping-bag@2x.svg" />
+                          <span class="text montserrat-semi-bold-white-14px">ADD TO CART</span>
+                        </span>
+                    </button>
+                  </div>
+                </div>
+                <div class="overlap-group">
+                  <img class="apple-watch" src="img/ipad-pro@2x.png" />
+                  <div class="price montserrat-normal-heavy-metal-18px">$899</div>
+                  <p class="apple-watch-series-4 montserrat-normal-heavy-metal-16px">Apple iPad Pro 64GB</p>
+                  <p class="redesigned-from-scra montserrat-light-heavy-metal-12px">
+                    Redesigned from scratch and completely revised.
+                  </p>
+                  <div class="flex-row-2">
+                    <button class="wishlist-button">
+                        <span class="overlap-group-1">
+                          <img class="heart" src="img/heart-2@2x.svg" />
+                          <span class="text-1-1 montserrat-semi-bold-heavy-metal-14px">WISHLIST</span>
+                        </span>
+                    </button>
+                    <button class="add-to-cart-button">
+                        <span class="overlap-group-2">
+                          <img class="shopping-bag" src="img/shopping-bag@2x.svg" />
+                          <span class="text montserrat-semi-bold-white-14px">ADD TO CART</span>
+                        </span>
+                    </button>
+                  </div>
+                </div>
+                <div class="overlap-group">
+                  <img class="apple-watch" src="img/homepod@2x.png" />
+                  <div class="price montserrat-normal-heavy-metal-18px">$399</div>
+                  <p class="apple-watch-series-4 montserrat-normal-heavy-metal-16px">Apple Homepod</p>
+                  <p class="redesigned-from-scra montserrat-light-heavy-metal-12px">
+                    Redesigned from scratch and completely revised.
+                  </p>
+                  <div class="flex-row-2">
+                    <button class="wishlist-button">
+                        <span class="overlap-group-1">
+                          <img class="heart" src="img/heart-2@2x.svg" />
+                          <span class="text-1-1 montserrat-semi-bold-heavy-metal-14px">WISHLIST</span>
+                        </span>
+                    </button>
+                    <button class="add-to-cart-button">
+                        <span class="overlap-group-2">
+                          <img class="shopping-bag" src="img/shopping-bag@2x.svg" />
+                          <span class="text montserrat-semi-bold-white-14px">ADD TO CART</span>
+                        </span>
+                    </button>
+                  </div>
+                </div>
+                <div class="overlap-group">
+                  <img class="apple-watch" src="img/jlab-audio-wireless@2x.png" />
+                  <div class="price montserrat-normal-heavy-metal-18px">$2499</div>
+                  <p class="apple-watch-series-4 montserrat-normal-heavy-metal-16px">JBuds Air Wireless Bluetooth…</p>
+                  <p class="redesigned-from-scra montserrat-light-heavy-metal-12px">
+                    Redesigned from scratch and completely revised.
+                  </p>
+                  <div class="flex-row-2">
+                    <button class="wishlist-button">
+                        <span class="overlap-group-1">
+                          <img class="heart" src="img/heart-2@2x.svg" />
+                          <span class="text-1-1 montserrat-semi-bold-heavy-metal-14px">WISHLIST</span>
+                        </span>
+                    </button>
+                    <button class="add-to-cart-button">
+                        <span class="overlap-group-2">
+                          <img class="shopping-bag" src="img/shopping-bag@2x.svg" />
+                          <span class="text montserrat-semi-bold-white-14px">ADD TO CART</span>
+                        </span>
+                    </button>
+                  </div>
+                </div>
+                <div class="overlap-group">
+                  <img class="apple-watch" src="img/magic-mouse@2x.png" />
+                  <div class="flex-row-7">
+                    <div class="overlap-group1-1">
+                      <div class="rectangle-6">
+                        <span class="text-20">4.4</span>
+                        <img class="star" src="img/star@2x.svg" />
+                      </div>
+                    </div>
+                    <div class="price-8 montserrat-normal-heavy-metal-18px">$99</div>
+                  </div>
+                  <p class="apple-watch-series-4 montserrat-normal-heavy-metal-16px">Apple Magic Mouse </p>
+                  <p class="redesigned-from-scra montserrat-light-heavy-metal-12px">
+                    Redesigned from scratch and completely revised.
+                  </p>
+                  <div class="flex-row-2">
+                    <button class="wishlist-button">
+                        <span class="overlap-group-1">
+                          <img class="heart" src="img/heart-2@2x.svg" />
+                          <span class="text-1-1 montserrat-semi-bold-heavy-metal-14px">WISHLIST</span>
+                        </span>
+                    </button>
+                    <button class="add-to-cart-button">
+                        <span class="overlap-group-2">
+                          <img class="shopping-bag" src="img/shopping-bag@2x.svg" />
+                          <span class="text montserrat-semi-bold-white-14px">ADD TO CART</span>
+                        </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="pagination">
+                <a href="#"><img class="left" src="img/left@2x.svg" /></a>
+                <div class="pagination__pages">
+                  <a href="#">1</a>
+                  <a href="#">2</a>
+                  <a href="#">3</a>
+                  <a href="#">4</a>
+                  <a href="#">5</a>
+                  <a href="#" class="active">6</a>
+                  <a href="#">7</a>
+                  <a href="#">8</a>
+                  <a href="#">9</a>
+                  <a href="#">10</a>
+                </div>
+                <a href="#"><img class="right" src="img/right@2x.svg" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
